@@ -1,13 +1,13 @@
 // src/App.tsx
 
 import React, { useState, useEffect } from 'react';
-import './styles/globals.css';
-import Hero from './components/Hero';
-import TransformationGallery from './components/TransformationGallery';
-import ChallengeDetails from './components/ChallengeDetails';
-import EnrollmentForm from './components/EnrollmentForm';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import './styles/globals.css'; // ← ADD THIS LINE!
+import Hero from '../components/Hero';
+import TransformationGallery from '../components/TransformationGallery';
+import ChallengeDetails from '../components/ChallengeDetails';
+import EnrollmentForm from '../components/EnrollmentForm';
+import FAQ from '../components/FAQ';
+import Footer from '../components/Footer';
 
 function App() {
   const [showEnrollment, setShowEnrollment] = useState(false);
